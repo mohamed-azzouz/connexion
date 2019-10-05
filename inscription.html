@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inscription</title>
+		<link rel="stylesheet" href="connexion.css">
+	</head>
+
+	<body class="bodyinscription">
+		<div class="formulaireinscription">
+			<h1>Sign Up Now!<span>Sign up and tell us what you think of the site!</span></h1>
+
+			<form action="connexion.html">
+				<div class="section">Information Perso</div>
+
+				<div class="info">
+					Civilité :<br />
+					<input type="radio" name="civi" value="Mme" /> Madame
+					<input type="radio" name="civi" value="Mlle" /> Mademoiselle
+					<input type="radio" name="civi" value="Mr" /> Monsieur
+
+					<br>
+					<br>
+
+					<label for="nom">Nom :<br></label>
+					<input type="text" name="nom" id="nom">
+
+					<br>
+					<br>
+
+
+					<label for="prenom">Prenom :<br></label>
+					<input type="text" name="prenom" id="prenom">
+
+					<br>
+					<br>
+
+					<label for="phone">Téléphone :<br></label>
+					<input type="text" name="phone" id="phone">
+
+					<br>
+					<br>
+
+
+
+					<label for="date">Date de naissance :<br></label>
+					<input type="date" name="date" id="date">
+
+					<br>
+					<br>
+
+					<label for="sexe">Sexe* :<br></label>
+					<input type="radio" name="sexeh" value="sexeh" /> Homme
+					<input type="radio" name="sexef" value="sexef" /> Femme
+
+
+					<br>
+					<br>
+
+
+					<label for="mail">Adresse mail* :<br> </label>
+					<input type="email" name="mail" id="mail" required>
+
+					<br>
+					<br>
+
+   			    </div>
+
+   			    <div class="section">Creation Login</div>
+
+   			    <div class="info ">
+
+					<label for="login">Login* :<br> </label>
+					<input type="text" name="login" id="login" required>
+
+					<br>
+					<br>
+
+
+					<label for="mdp">Mot de passe* :<br></label>
+					<input type="password" name="password" id="password" required>
+
+					<br>
+					<br>
+
+
+					<label for="confirmmdp">Confirmer mot de passe* : <br></label>
+					<input type="password" name="password" id="password" required>
+
+					<br>
+					<br>
+   			    	
+   			    </div>
+
+   			     <div class="section">Autre Information</div>
+
+   			     <div class="info">
+   			     	<label for="etude">Niveau d'étude :<br> </label>
+					<select name="etude">
+   						<option value="brevet">Brevet</option>
+   						<option value="bac">Baccalauréat</option>
+   						<option value="bac2">Baccalauréat +2</option>
+   						<option value="bac3">License</option>
+   						<option value="bac4">Master</option>
+   						<option value="bac5">Doctorat</option>
+					</select>
+
+					<br>
+					<br>
+
+					
+
+					<label for="presentation">Présentation :<br> </label>
+					<textarea name="presentation" id="presentation" placeholder="Presentez vous en quelques ligne" rows="6" cols="50"></textarea> 
+
+					<br>
+					<br>
+
+
+					<label for="hobbies">Hobbies :<br></label>
+					<input type="checkbox" name="choix1" value="choix1"> Sport
+					<input type="checkbox" name="choix2" value="choix2"> Cinéma
+					<input type="checkbox" name="choix3" value="choix1"> Anime / Manga
+					<input type="checkbox" name="choix4" value="choix2"> Informatique
+					<input type="checkbox" name="choix5" value="choix1"> Animaux
+					<br>
+					<br>
+					<label for="autre"> Autres ? :<br> </label>
+					<textarea name="autre" id="autre" rows="6" cols="30"></textarea>
+
+					<br>
+					<br>
+
+   			     	
+   			     </div>
+
+   			     <center><div class="button-section">
+    				 <input type="submit" name="Sign Up" />    			
+    			</div></center>
+
+		
+			</form>
+		</div>
+	</body>
+</html>
